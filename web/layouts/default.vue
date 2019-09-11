@@ -14,30 +14,7 @@
     </header>
     <nuxt />
     <footer class="bg-black">
-      <!-- <div class="bg-light-black text-grey">
-        <div class="container d-flex py-3">
-          <div class="w-50 contact">
-            <strong>Jasper Lau</strong>
-            <p>+1 (614) 458-8722</p>
-            <p>Jlau@alcovemanagement.com</p>
-            <br />
-            <strong>Jasper Lau</strong>
-            <p>+1 (614) 458-8722</p>
-            <p>Jlau@alcovemanagement.com</p>
-            <br />
-            <strong>Jasper Lau</strong>
-            <p>+1 (614) 458-8722</p>
-            <p>Jlau@alcovemanagement.com</p>
-          </div>
-          <div class="w-50">
-            <strong>ALCOVE MANAGEMENT</strong>
-            <p>Our mission is to be the preferred partner for world-class families by offering proprietary access to unique technology investment opportunities in the United States and Emerging Markets</p>
-            <p>We are unique in our entrepreneurial heritage, independent thought, and global network of world-class entrepreneurs, top-tier venture funds, and powerful angel investors.</p>
-            <p>We have a reputation of helping successful entrepreneurs with big visions which others were unwilling to back</p>
-          </div>
-        </div>
-      </div>-->
-      <div class="text-grey text-center fs-sm py-1">© 2019 aeccd.com 版权所有</div>
+      <div class="text-grey text-center fs-sm py-1">Copyright © alcovemanagementllc.com</div>
     </footer>
   </div>
 </template>

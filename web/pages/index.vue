@@ -43,7 +43,7 @@
             <p
               class="text-text"
             >global Chinese families by offering proprietary access to unique technology investment opportunities</p>
-            <nuxt-link to="/" class="fs-sm">VIEW MORE</nuxt-link>
+            <nuxt-link to="/ABOUT" class="fs-sm">VIEW MORE</nuxt-link>
           </div>
         </div>
       </div>
@@ -85,10 +85,10 @@
         <h1 class="fs-xl">OUR STRATEGY: OVERVIEW</h1>
         <span
           class="text-light-primary fs-sm"
-        >Invest in high-impact early and late stage global technology companies alongside top-tier venture & angel investors</span>
+        >Invest in high-impact early and late stage global technology companies alongside top-tier venture &amp; angel investors</span>
       </div>
       <div class="container tabs pt-5 pb-6">
-        <el-tabs v-model="activeName" @tab-click="handleClick">
+        <el-tabs v-model="activeName">
           <el-tab-pane label="Markets" name="Markets">
             <div class="d-flex">
               <div class="w-50 px-3">
@@ -111,7 +111,7 @@
                 <h4>Silicon Valley:</h4>
                 <p
                   class="text-text"
-                >Cyber security; Artificial Intelligence; Enterprise Software; Entertainment & Media</p>
+                >Cyber security; Artificial Intelligence; Enterprise Software; Entertainment &amp; Media</p>
               </div>
               <div class="w-50 px-3">
                 <h4>Emerging Markets:</h4>
@@ -127,13 +127,13 @@
                 <h4>Silicon Valley: 60% of Fund</h4>
                 <p
                   class="text-text"
-                >Early Stage (75%) – Seed, Seed+, Series A Late Stage (25%) Pre-M&A and Pre-IPO</p>
+                >Early Stage (75%) – Seed, Seed+, Series A Late Stage (25%) Pre-M&amp;A and Pre-IPO</p>
               </div>
               <div class="w-50 px-3">
                 <h4>Emerging Markets: 40% of Fund</h4>
                 <p
                   class="text-text"
-                >Early Stage (60%) – Seed, Seed+, Series A Late Stage (40%) Pre-M&A and Pre-IPO</p>
+                >Early Stage (60%) – Seed, Seed+, Series A Late Stage (40%) Pre-M&amp;A and Pre-IPO</p>
               </div>
             </div>
           </el-tab-pane>
@@ -173,103 +173,6 @@
       </div>
     </div>
 
-    <!-- <div class="bg-primary">
-      <div class="container text-white py-5">
-        <h3>Invest in high-impact early and late stage global technology companies alongside top-tier venture & angel investors</h3>
-        <div class="d-flex overview my-4 p-2">
-          <div class="box"></div>
-          <div class="box-title d-flex ai-center">
-            <h5>Markets</h5>
-          </div>
-          <div class="box-over"></div>
-          <div class="w-50 px-2">
-            <h3>Silicon Valley:</h3>
-            <p>World-class entrepreneurs with a proven history of building companies with successful exits</p>
-          </div>
-          <div class="w-50 px-2">
-            <h3>Emerging Markets:</h3>
-            <p>Ex-Uber, Ex-McKinsey, and other top immigrant managers who return to their countries to build next-generation tech ventures</p>
-          </div>
-        </div>
-        <div class="d-flex overview my-4 p-2">
-          <div class="box"></div>
-          <div class="box-title d-flex ai-center">
-            <h5>
-              Industry
-              <br />Focus
-            </h5>
-          </div>
-          <div class="box-over"></div>
-          <div class="w-50 px-2">
-            <h3>Silicon Valley:</h3>
-            <p>Cyber security; Artificial Intelligence; Enterprise Software; Entertainment & Media</p>
-          </div>
-          <div class="w-50 px-2">
-            <h3>Emerging Markets:</h3>
-            <p>Financial Technology; Urban Transportation; E-commerce; Healthcare</p>
-          </div>
-        </div>
-        <div class="d-flex overview my-4 p-2">
-          <div class="box"></div>
-          <div class="box-title d-flex ai-center">
-            <h5>Stage</h5>
-          </div>
-          <div class="box-over"></div>
-          <div class="w-50 px-2">
-            <h3>Silicon Valley: 60% of Fund</h3>
-            <p>Early Stage (75%) – Seed, Seed+, Series A Late Stage (25%) Pre-M&A and Pre-IPO</p>
-          </div>
-          <div class="w-50 px-2">
-            <h3>Emerging Markets: 40% of Fund</h3>
-            <p>Early Stage (60%) – Seed, Seed+, Series A Late Stage (40%) Pre-M&A and Pre-IPO</p>
-          </div>
-        </div>
-        <div class="d-flex overview my-4 p-2">
-          <div class="box"></div>
-          <div class="box-title d-flex ai-center">
-            <h5>
-              Industry
-              <br />Focus
-            </h5>
-          </div>
-          <div class="box-over"></div>
-          <div class="w-50 px-2">
-            <h3>Early Stage:</h3>
-            <p>
-              $250,000 - 500,000 with pre-money valuations of $10M or less
-              <br />
-              <br />
-            </p>
-          </div>
-          <div class="w-50 px-2">
-            <h3>Late Stage:</h3>
-            <p>$500,000 – 1M with pre-money valuations of $100M or more</p>
-          </div>
-        </div>
-        <div class="d-flex overview my-4 p-2">
-          <div class="box"></div>
-          <div class="box-title d-flex ai-center">
-            <h5>
-              Portfolio
-              <br />Construction
-            </h5>
-          </div>
-          <div class="box-over"></div>
-          <div class="w-50 px-2">
-            <h3>Silicon Valley:</h3>
-            <p>
-              5-7 deals / yr; doubling down on highest conviction deals
-              <br />
-              <br />
-            </p>
-          </div>
-          <div class="w-50 px-2">
-            <h3>Emerging Markets:</h3>
-            <p>3-5 deals / yr; doubling down on highest conviction deals</p>
-          </div>
-        </div>
-      </div>
-    </div>-->
     <!-- team -->
     <div class="title">
       <span class="text-light-primary fs-sm">ABOUT US</span>
@@ -358,11 +261,6 @@ export default {
     return {
       activeName: "Markets"
     };
-  },
-  methods: {
-    handleClick(tab, event) {
-      console.log(tab, event);
-    }
   }
 };
 </script>
